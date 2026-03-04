@@ -1,0 +1,51 @@
+
+
+body {background-color: #ffce65
+font-family: Arial, Helvetica, sans-serif;
+    
+   
+    margin:0px auto;
+
+}
+
+
+
+#wrapper {background-color:rgb(255, 210, 112) ;
+
+    width:70%;
+    margin:0px auto;
+}
+
+
+
+h1 {color: rgb(255, 166, 0);
+font-family:"Sour Gummy", sans-serif;
+font-size: 48px;
+
+main a:hover{color: rgb(255, 162, 0)}
+}
+
+
+header h2 { color: #ebaa30;
+  font-family: "Condiment", cursive;
+
+  main a:hover{color: rgb(255, 162, 0)}
+}
+
+
+
+main h2 { color: #c38601;}
+
+main h3{margin-top: 30px;}
+
+main h4{font-size: 12px;}
+
+main a {color: white; text-decoration: none;}
+
+main a:hover{color: rgb(255, 162, 0)}
+
+span.COPYRIGHT{color: rgb(82, 82, 82)}
+
+span.author{color:rgb(255, 255, 255)}
+
+
