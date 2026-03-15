@@ -1,0 +1,50 @@
+body {background-color: #55D2F0;
+
+background-image: url("images/Screenshot\ 2026-02-25\ 111955.png")}
+
+#wrapper {background-color: #F09F54;
+
+width: 70%;
+margin: 0px auto;
+}
+
+header, nav, main, footer {padding: 20px; 
+border: 2px solid #f07E4A
+}
+
+main h2 {background-color:#f07E4A;
+    padding: 6px ;
+border-bottom: 10px solid #f07E4A; 
+margin: 140px 0px 0px 0px; 
+}
+
+/* styling a div block element box */
+div.imageContainer {
+    background-color: #fff;
+    padding: 20px;
+    border: 11px solid #f07E4A;
+}
+
+/* styling a img inline element box */
+div.imageContainer img {
+width: 200px;
+height: 200px;
+}
+
+/* styling a div block element box */
+div.imageContainer {
+    background-color: #fff;
+    padding: 20px;
+    border: 11px solid #f07E4A;
+}
+
+/* styling a img inline element box */
+div.imageContainer img {
+width: 100px;
+height: 100px;
+    border: 11px solid #6AA4B0;
+    margin: 22px;
+    padding: 40px;
+    background-color: #A35CB5;
+    background-image: url("images/istockphoto-471006158-612x612.jpg");
+}
