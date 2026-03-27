@@ -1,50 +1,143 @@
-body {background-color: #55D2F0;
-
-background-image: url("images/Screenshot\ 2026-02-25\ 111955.png")}
-
-#wrapper {background-color: #F09F54;
-
-width: 70%;
-margin: 0px auto;
+/* BEGIN border-box fix */
+html {
+  box-sizing: border-box;
 }
 
-header, nav, main, footer {padding: 20px; 
-border: 2px solid #f07E4A
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+
+body {
+     background-image: url("images/orange-blue-background-with-gradient-middle_879439-225.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    padding: 0;
+    margin: 0;
 }
 
-main h2 {background-color:#f07E4A;
-    padding: 6px ;
-border-bottom: 10px solid #f07E4A; 
-margin: 140px 0px 0px 0px; 
+/* Grouping example */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
 }
 
-/* styling a div block element box */
-div.imageContainer {
-    background-color: #fff;
-    padding: 20px;
-    border: 11px solid #f07E4A;
+.wrapper {
+    background: rgb(153, 0, 255); 
+    /* grid layout parent */
+    display: grid;
+    /* create 12 col layout */
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    width: 80%;
+    margin: 0 auto;
 }
 
-/* styling a img inline element box */
-div.imageContainer img {
-width: 200px;
-height: 200px;
+/* padding on immediate children of wrapper */
+.wrapper>* {
+  padding: 20px;
 }
 
-/* styling a div block element box */
-div.imageContainer {
-    background-color: #fff;
-    padding: 20px;
-    border: 11px solid #f07E4A;
+header {
+  background-color: rgb(255, 196, 0); background-image: url("images/Screenshot\ 2026-03-26\ 211531.png"); background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    grid-column: 1/13;
 }
 
-/* styling a img inline element box */
-div.imageContainer img {
-width: 100px;
-height: 100px;
-    border: 11px solid #6AA4B0;
-    margin: 22px;
-    padding: 40px;
-    background-color: #A35CB5;
-    background-image: url("images/istockphoto-471006158-612x612.jpg");
+nav {
+  background-color: rgb(200, 91, 251); background-image: url("images/Screenshot\ 2026-03-26\ 211520.png"); background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(255, 145, 0);
+     grid-column: 1/4;
+    
+ 
 }
+
+main {
+    background-color: rgb(0, 17, 255);
+    background-image: url("images/Screenshot\ 2026-02-25\ 112028.png"); background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+     grid-column: 4/10;
+}
+
+aside {
+    background-color: rgb(0, 98, 255); background-image: url("images/Screenshot\ 2026-03-26\ 211718.png"); background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    grid-column: 10/13;
+}
+
+/* span 2 rows */
+main,
+nav,
+aside {
+  grid-row: 2 / 4;
+}
+
+
+footer {
+    background-color: rgb(74, 147, 255);
+    grid-column: 1/13; h2 {
+background-image: url("images/Screenshot\ 2026-03-26\ 211718.png"); background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 441;
+  font-style: normal;
+}
+}
+
+h1 {
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 441;
+  font-style: normal;
+}
+
+h2 {
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 441;
+  font-style: normal;
+}
+
+h3 {
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 441;
+  font-style: normal;
+}
+
+p {
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 441;
+  font-style: normal;
+  a:hover {
+  color: rgb(60, 66, 255);    
+}
+}
+
+
+
