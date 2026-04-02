@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("images/background.gif"); /* your image */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.title {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subtitle {
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.caption { 
+   position: absolute;
+  top: 20px;
+  width: 200%;
+  text-align: left;
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.link {
+  position: absolute;
+  width: 100px;
+  height: 75px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.link:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1); 
+  transform: scale(1.11);
+  cursor: pointer;
+}
+
+/* Positions (adjust these!) */
+.link1 { top: 30%; left: 25%; }
+.link2 { top: 30%; right: 25%; }
+.link3 { bottom: 10%; left: 25%; }
+.link4 { bottom: 10%; right: 25%; }
+
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.link img {
+  width: 240px;
+  height: 100%;
+   height: auto;
+   
+}
+
+.box {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  
+
+  top: 50%;
+  left:55%;
+  transform: translate(-50%, -50%);
+}
